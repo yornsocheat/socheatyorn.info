@@ -5,38 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Node.js Foundation">
+    <meta name="author" content="Socheat Yorn">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.">
+    <meta name="description" content="I did it for person resume and share it to employer.">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-    <link rel="apple-touch-icon" href="https://nodejs.org/static/images/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="https://nodejs.org/static/images/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="https://nodejs.org/static/images/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="https://nodejs.org/static/images/favicons/manifest.json">
-    <link rel="mask-icon" href="https://nodejs.org/static/images/favicons/safari-pinned-tab.svg" color="#43853d">
-    <link rel="shortcut icon" href="https://nodejs.org/static/images/favicons/favicon.ico">
-    <title>Note App</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#ffffff">
+
+    <script src="https://kit.fontawesome.com/3ac68c8400.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Socheat Yorn's Resume</title>
 </head>
 
 <body>
-    <h1>Note App</h1>
-    <h3>Please see my info below</h3>
-    <div id="product-list"></div>
-    <form id="products-form">
-        <input type="text" name="productName" id="product-name">
-        <select name="productColor" id="product-color">
-            <option value="red">Red</option>
-            <option value="green">Green</option>
-            <option value="blue">Blue</option>
-            <option value="black">Black</option>
-        </select>
-        <input type="text" name="productPrice" id="product-price">
-        <button name="addProduct" id="add-product">Add Product</button>
-        <button name="searchProduct" id="search-product">Search Product</button>
-    </form>
+    <div class="container mt-5">
+        <div class="media mb-5">
+            <img class="align-self-start mr-4 rounded-circle" src="img/socheatyorn-photo.jpg" width="140"
+                alt="Socheat Yorn Photo">
+            <div class="media-body">
+                <h1 class="mt-3">Socheat Yorn</h1>
+                <p class="text-gray">Full Stack Developer<br />7+ Years Experiences</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-9">
+                <div class="main-item pr-3 mb-5" id="profile"></div>
+                <div class="main-item" id="employment-history"></div>
+                <div class="main-item" id="educations"></div>
+                <div class="main-item" id="courses"></div>
+                <div class="main-item" id="references"></div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="main-item" id="details">
+                    <h5>Details</h5>
+                </div>
+                <div class="main-item" id="hobits">
+                    <h5 class="mt-5">Hobits</h5>
+                </div>
+                <div class="main-item" id="links">
+                    <h5 class="mt-5">Links</h5>
+                </div>
+                <div class="main-item" id="skills">
+                    <h5 class="mt-5">Skills</h5>
+                </div>
+                <div class="main-item" id="languages">
+                    <h5 class="mt-5">Languages</h5>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js" type="module"></script>
 </body>
 
 </html>
