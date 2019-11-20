@@ -1,4 +1,4 @@
-import _r from './render.js';
+import _r from '../modules/render.js/index.js';
 
 let profile = {
     title: 'Profile',
