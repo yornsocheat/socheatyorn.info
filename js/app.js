@@ -84,8 +84,8 @@ let educations = [{
 let courses = [{
         institution: 'Paññāsāstra',
         name: 'General English as a Second Language',
-        startDate: 'October 2002',
-        endDate: 'July 2005'
+        startDate: 'October 2012',
+        endDate: 'July 2015'
     },
     {
         institution: 'Edniche English School',
